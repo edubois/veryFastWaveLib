@@ -10,28 +10,28 @@ make
 ## Run:
 
 ### slow_test1: benchmark without SIMD
-
->******************* Very Fast Wavelet Codec ****************
->* BENCHMARK WITHOUT OPTIMIZATIONS                          *
->************************************************************
+```
+******************* Very Fast Wavelet Codec ****************
+* BENCHMARK WITHOUT OPTIMIZATIONS                          *
+************************************************************
 >Encoding...
->Benchmark encoding: 972.629 (ms)
+Benchmark encoding: 972.629 (ms)
 >Decoding...
->Benchmark decoding: 851.818 (ms)
->Benchmark total: 1824.447 (ms)
->Reconstruction ok```
-
+Benchmark decoding: 851.818 (ms)
+Benchmark total: 1824.447 (ms)
+Reconstruction ok
+```
 
 ### fast_test1: benchmark with SIMD on the same algorithm.
-
->******************* Very Fast Wavelet Codec ****************
->* BENCHMARK ON SIMD VECTORIZATION                          *
->************************************************************
+```
+******************* Very Fast Wavelet Codec ****************
+* BENCHMARK ON SIMD VECTORIZATION                          *
+************************************************************
 >Encoding...
->Benchmark encoding: 22.604 (ms)
+Benchmark encoding: 22.604 (ms)
 >Decoding...
->Benchmark decoding: 15.141 (ms)
->Benchmark total: 37.745 (ms)
->Reconstruction ok```
-
+Benchmark decoding: 15.141 (ms)
+Benchmark total: 37.745 (ms)
+Reconstruction ok
+```
 
